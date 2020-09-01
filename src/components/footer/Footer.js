@@ -35,9 +35,8 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <hr />
             <div class="footer__bottom">
-                <p>Made By Beren Boden ©2020</p>
+                <p>By Beren Boden | 2020</p>
             </div>
         </div>
     )

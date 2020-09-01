@@ -3,8 +3,8 @@ import emailjs from 'emailjs-com';
 import './Contact.scss'
 
 /* eslint-disable */
-const subjectRE=/^[a-zA-Z0-9_ ]{2,10}$/;
-const nameRE=/^[a-zA-Z_ ]{2,10}$/;
+const subjectRE=/^\w+[a-zA-Z0-9_ ]{2,10}$/;
+const nameRE=/^\w+[a-zA-Z_ ]{2,10}$/;
 const emailRE=/^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/;
 
 export default function ContactUs() {

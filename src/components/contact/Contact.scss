@@ -1,11 +1,15 @@
+.contact {
+    h1 {
+        padding-top: 40px;
+    }
+    background-color: #f0f2f5;
+}
 .contact__form {
-    margin: 40px 0;
-    padding: 50px 0;
+    padding-bottom: 60px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    background-color: #f0f2f5;
     border-radius: 3px;
     box-shadow: 1px 1px 2px 0 rgba(0,0,0,0.2);
     .button {
@@ -39,7 +43,7 @@
         }
         input {
             width: 600px;
-            padding: 10px 7px;
+            padding: 15px 7px;
             border-radius: 3px;
             outline: none;
             border: none;
@@ -69,7 +73,7 @@
     .contact__form {
         .button {
             input{
-                width: 402px;
+                width: 415px;
             }
         }
         .contact__block {
@@ -86,7 +90,7 @@
     .contact__form {
         .button {
             input{
-                width: 282px;
+                width: 295px;
             }
         }
         .contact__block {
@@ -95,6 +99,24 @@
             }
             textarea {
                 width: 280px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 315px){
+    .contact__form {
+        .button {
+            input{
+                width: 265px;
+            }
+        }
+        .contact__block {
+            input {
+                width: 250px;
+            }
+            textarea {
+                width: 250px;
             }
         }
     }
