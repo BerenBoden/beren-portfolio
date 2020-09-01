@@ -1,7 +1,7 @@
 import React from 'react';
 import Animation from '../animation/Animation';
 import './Showcase.scss';
-import cv from '../../data/beren-cv.rar'
+import cv from '../../data/berenboden-cv.rar'
 
 function Showcase() {
     return (
