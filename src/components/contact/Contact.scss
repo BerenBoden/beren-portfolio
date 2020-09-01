@@ -29,6 +29,14 @@
     }
     .contact__block {
         margin: 10px 0px;
+        .err {
+            border: 1px solid red;
+        }
+        small {
+            font-size: 0.7rem;
+            display: block;
+            color: red;
+        }
         input {
             width: 600px;
             padding: 10px 7px;

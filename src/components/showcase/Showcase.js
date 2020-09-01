@@ -5,7 +5,7 @@ import cv from '../../data/beren-cv.rar'
 
 function Showcase() {
     return (
-        <div id="showcase">
+        <div id="showcase" className="showcase">
             <div className="showcase__left">
                 <h1>Web Development & Cyber Security</h1>
                 <p>

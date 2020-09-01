@@ -42,9 +42,12 @@ const Cards = styled.div`
                 .card__button {
                     display: flex;
                     flex-direction: column;
+                        a {
+                            color: #000;
+                            text-decoration: none;
                         .button {
                             transition: 0.2s ease-in-out;
-                            margin: 10px 0;
+                            margin: 3px 0;
                             background: #ccc;
                             padding: 10px 0px;
                             width: 100%;
@@ -52,23 +55,12 @@ const Cards = styled.div`
                             border-radius: 5px;
                             text-align: center;
                             &:hover {
+                                color: #fff;
                                 cursor: pointer;
                                 background: #000;
-                                a {
-                                color: #fff;
+                            }
+                            } 
                         }
-                    }
-                    a {
-                        width: 100%;
-                        transition: 0.2s ease-in-out;
-                        font-family: 'Poppins', sans-serif;
-                        outline: none;
-                        border: none;
-                        border-radius: 5px;
-                        padding: 10px 20px;
-                        font-weight: 500;
-                        color: #000;
-                        text-decoration: none;
                     }
                 }
             }
@@ -98,12 +90,16 @@ const Projects = () => {
                             functionality, purchase functionality (PayPal & Credit Card), and page routing functionality. 
                         </p>
                         <div className="card__button">
-                            <div className="button">
-                                <a target="_blank" rel="noopener noreferrer" href="https://github.com/BerenBoden/ecommerce-project">View Live</a>
-                            </div>
-                            <div className="button">
-                                <a target="_blank" rel="noopener noreferrer" href="https://github.com/BerenBoden/ecommerce-project">View Code</a>
-                            </div>
+                            <a target="_blank" rel="noopener noreferrer" href="https://ecommerce-store-12a29.web.app/">
+                                <div className="button">
+                                    View Live
+                                </div>
+                            </a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/BerenBoden/ecommerce-project">
+                                <div className="button">
+                                    View Code
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -118,12 +114,16 @@ const Projects = () => {
                             and this message will be stored on the Firebase database where it is shown directly on the website in real time. 
                         </p>
                         <div className="card__button">
-                            <div className="button">
-                                <a target="_blank" rel="noopener noreferrer" href="https://fb-clone-da943.web.app/">View Live</a>
-                            </div>
-                            <div className="button">
-                                <a target="_blank" rel="noopener noreferrer" href="https://github.com/BerenBoden/facebook-clone">View Code</a>
-                            </div>
+                            <a target="_blank" rel="noopener noreferrer" href="https://fb-clone-da943.web.app/">
+                                <div className="button">
+                                    View Live
+                                </div>
+                            </a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/BerenBoden/facebook-clone">
+                                <div className="button">
+                                    View Code
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
