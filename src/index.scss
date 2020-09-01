@@ -1,0 +1,26 @@
+$base-color: #e6e6fa;
+$btn-color: #1a73e8;
+$color: #111;
+$primary: #FFAB9D;
+$footer: #232f3e;
+$footer-grey: #a8a8a8;
+$success: #2ecc71;
+$error: #e74c3c;
+
+body {
+  scroll-behavior: smooth;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 62.5%;
+  background: url('./img/showcase-img-2.svg') no-repeat;
+  background-size: cover;
+  height: 720px;
+  object-fit: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
