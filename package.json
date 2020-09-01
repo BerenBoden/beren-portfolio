@@ -18,10 +18,10 @@
     "styled-components": "^5.1.1"
   },
   "scripts": {
-    "start": "yarn start",
-    "build": "yarn build",
-    "test": "yarn test",
-    "eject": "yarn eject"
+    "start": "node start",
+    "build": "node build",
+    "test": "node test",
+    "eject": "node eject"
   },
   "eslintConfig": {
     "extends": "react-app"
