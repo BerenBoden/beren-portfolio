@@ -3,6 +3,12 @@
     position: absolute;
     background: url('../../img/showcase-img.svg') no-repeat;
     background-size: cover;
-    height: 800px;
+    height: 100vh;
     object-fit: cover;
+}
+
+@media only screen and(max-width: 920px) {
+    .Home {
+        height: 800px;
+    }
 }

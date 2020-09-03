@@ -20,21 +20,8 @@ const Nav = styled.nav`
         width: 220px;
         cursor: pointer;
     }
-    .menu-bars {
-        font-size: 2rem;
-        color: #fff;
-        cursor: pointer;
-        transition: transform 0.1s ease-in;
-        display: none;
-    }
 }
 
-@media only screen and (max-width: 768px) {
-    nav {
-        .menu-bars {
-            display: inline-block;
-        }
-    }
 `
 
 function Navigation() {

@@ -10,9 +10,9 @@ function Showcase() {
                 <h1>Web Development & Cyber Security</h1>
                 <p>
                 Computer science and I.T enthusiast.<br />
-                Self taught, front end & back end web developer.<br />
-                I'm interested in cyber security as a hobby, but I'm<br />
-                currently working towards a career in web development.<br />
+                Self taught, front end & back end web developer. <br />
+                I'm interested in cyber security as a hobby, but I'm <br />
+                currently working towards a career in web development. <br />
                 </p>
                 <a href={cv} download class="cta">
                     <span>Download My C.V &nbsp;<i style={{fontWeight: "300"}} class="fa fa-arrow-right"></i></span>

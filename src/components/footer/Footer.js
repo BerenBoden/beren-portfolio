@@ -23,7 +23,7 @@ const Footer = () => {
                     <div class="footer__content">
                         <h2>Follow Me On -</h2>
                         <i class="fa fa-github"></i><a target="_blank" rel="noopener noreferrer" href="https://github.com/BerenBoden">&nbsp; GitHub</a><br />
-                        <i class="fa fa-twitter"></i><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/BerenBoden">&nbsp; Twitter</a><br />
+                        <i class="fa fa-youtube"></i><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCoNZkBNKW6bI-luin6TdhpA?view_as=subscriber">&nbsp; Youtube</a><br />
                         <i class="fa fa-linkedin"></i><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/beren-boden-5766ba1a0/">&nbsp; LinkedIn</a><br />
                         <i class="fa fa-stack-overflow"></i><a target="_blank" rel="noopener noreferrer" href="#showcase-section">&nbsp; StackOverflow</a><br />
                     </div>

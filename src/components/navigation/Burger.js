@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import RightNav from './RightNav';
 
 const BurgerStyle = styled.div`
+    cursor: pointer;
     display: none;
     width: 2rem;
     height: 1.8rem;
