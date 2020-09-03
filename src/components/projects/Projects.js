@@ -3,7 +3,9 @@ import './Projects.scss';
 import ecom from '../../img/ecommerce.png';
 import styled from 'styled-components';
 import fbclone from '../../img/fbclone.png';
-import cu from '../../img/codeunload.png';
+import codeunload from '../../img/codeunload.png';
+import twitterclone from '../../img/twitterclone.png';
+
 
 const Cards = styled.div`
     padding: 50px;
@@ -130,7 +132,7 @@ const Projects = () => {
                 </div>
                 <div className="card__container">
                     <div className="card__top">
-                        <img src={cu} alt="codeunload website" />
+                        <img src={codeunload} alt="codeunload website" />
                     </div>
                     <div class="card__bottom">
                         <h2>Codeunload WordPress Website</h2>
@@ -150,14 +152,25 @@ const Projects = () => {
                 </div>
                 <div className="card__container">
                     <div className="card__top">
-                        <img src="/img/ecommerce.png" alt="#" />
+                        <img src={twitterclone} alt="Twitter Clone with reactJS" />
                     </div>
                     <div class="card__bottom">
-                        <h2>Ecommerce Website With ReactJS</h2>
-                        <p>For this project, I used ReactJS, NodeJS, Sass and HTML to create
-                            an E-commerce website. The features of this website is add to cart
-                            functionality, purchase functionality (PayPal & Credit Card), and page routing functionality. 
+                        <h2>Twitter Clone with reactJS</h2>
+                        <p>This Twitter clone was built using React, and the useState and useEffect hooks with the FireStore database. 
+                            This app allows you to  
                         </p>
+                        <div className="card__button">
+                            <a target="_blank" rel="noopener noreferrer" href="https://twitter-clone-3cf1b.web.app/">
+                                <div className="button">
+                                    View Live
+                                </div>
+                            </a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/BerenBoden/twitter-clone">
+                                <div className="button">
+                                    View Code
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>        
             </Cards>
