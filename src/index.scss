@@ -1,11 +1,3 @@
-$base-color: #e6e6fa;
-$btn-color: #1a73e8;
-$color: #111;
-$primary: #FFAB9D;
-$footer: #232f3e;
-$footer-grey: #a8a8a8;
-$success: #2ecc71;
-$error: #e74c3c;
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 @font-face {
@@ -24,10 +16,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 62.5%;
-  background: url('./img/showcase-img-2.svg') no-repeat;
-  background-size: cover;
-  height: 720px;
-  object-fit: cover;
 }
 
 code {

@@ -1,13 +1,15 @@
 import React from 'react';
-import './Projects.scss';
+import Navigation from '../navigation/Navigation';
+import './ProjectPage.scss';
+import Footer from '../footer/Footer';
 import ecom from '../../img/ecommerce.png';
-import styled from 'styled-components';
 import fbclone from '../../img/fbclone.png';
 import codeunload from '../../img/codeunload.png';
 import twitterclone from '../../img/twitterclone.png';
-
+import styled from 'styled-components';
 
 const Cards = styled.div`
+    margin-bottom: 50px;
     padding: 50px;
     display: flex;
     flex-direction: row;
@@ -75,12 +77,13 @@ const Cards = styled.div`
 }
 `
 
-const Projects = () => {
+function ProjectPage() {
     return (
-        <div id="project" className="project">
-            <h1>
-                My Projects
-            </h1>
+        <div className="projectPage">
+            <Navigation />
+            <div className="projectPage__header">
+                <h1>Latest Projects</h1>
+            </div>
             <Cards>
                 <div className="card__container">
                     <div className="card__top">
@@ -185,7 +188,7 @@ const Projects = () => {
                                     View Code
                                 </div>
                             </a>
-                            <a target="_blank" rel="noopener noreferrer" href="/project-details">
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/BerenBoden/twitter-clone">
                                 <div className="button">
                                     View Case Study
                                 </div>
@@ -194,8 +197,9 @@ const Projects = () => {
                     </div>
                 </div>        
             </Cards>
+            <Footer/>
         </div>
     )
 }
 
-export default Projects
+export default ProjectPage

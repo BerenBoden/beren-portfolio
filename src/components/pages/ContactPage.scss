@@ -1,0 +1,17 @@
+.contactPage {
+    .contactPage__header {
+        background-image: url('../../img/banner-bg.png');
+        height: 270px;
+        box-shadow: 1px 2px 3px 1px rgba(0,0,0,0.5);
+        h1 {
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            color: #fff;
+            text-decoration: underline;
+            align-items: center;
+            line-height: 300px;
+            font-size: 35px;
+        }
+    }
+}

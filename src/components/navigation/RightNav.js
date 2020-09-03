@@ -12,7 +12,7 @@ const Ul = styled.ul`
             text-transform: uppercase;
             transition: 0.2s ease-in-out;
             &:hover {
-                color: red;
+                color: #e45e5e;
             }
         }
     }
@@ -41,13 +41,13 @@ const RightNav = ({open}) => {
     return (
         <Ul open={open}>
             <li>
-                <a href="#showcase"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+                <a href="/"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
             </li>
             <li>
-                <a href="#project"><i class="fa fa-folder" aria-hidden="true"></i> Projects</a>
+                <a href="/projects"><i class="fa fa-folder" aria-hidden="true"></i> Projects</a>
             </li>
             <li>
-                <a href="#contact"><i class="fa fa-briefcase" aria-hidden="true"></i> Contact</a>
+                <a href="/contact"><i class="fa fa-briefcase" aria-hidden="true"></i> Contact</a>
             </li>
         </Ul>
     )
