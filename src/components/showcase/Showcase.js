@@ -16,7 +16,7 @@ function Showcase() {
                 </p>
                 <a href={cv} download class="cta">
                     <span>Download My C.V &nbsp;<i style={{fontWeight: "300"}} class="fa fa-arrow-right"></i></span>
-                    <svg class="svg-btn" width="13px" height="10px" viewBox="0 0 13 10">
+                    <svg class="svg-btn" width="13px" height="8px" viewBox="0 0 13 8">
                     </svg>
                 </a>
             </div>

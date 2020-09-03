@@ -6,6 +6,16 @@ $footer: #232f3e;
 $footer-grey: #a8a8a8;
 $success: #2ecc71;
 $error: #e74c3c;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  src: url(./fonts/Poppins/Poppins-Regular.ttf) format('embedded-opentype'),
+  url(./fonts/Poppins/Poppins-Regular.ttf) format('woff2'),
+  url(./fonts/Poppins/Poppins-Regular.ttf) format('woff'),
+  url(./fonts/Poppins/Poppins-Regular.ttf) format('truetype'),
+  url(./fonts/Poppins/Poppins-Regular.ttf) format('svg');
+}
 
 body {
   scroll-behavior: smooth;
@@ -21,6 +31,5 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Poppins', sans-serif;
 }

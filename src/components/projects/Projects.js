@@ -2,7 +2,8 @@ import React from 'react';
 import './Projects.scss';
 import ecom from '../../img/ecommerce.png';
 import styled from 'styled-components';
-import fbclone from '../../img/fbclone.png'
+import fbclone from '../../img/fbclone.png';
+import cu from '../../img/codeunload.png';
 
 const Cards = styled.div`
     padding: 50px;
@@ -129,14 +130,22 @@ const Projects = () => {
                 </div>
                 <div className="card__container">
                     <div className="card__top">
-                        <img src="/img/ecommerce.png" alt="#" />
+                        <img src={cu} alt="codeunload website" />
                     </div>
                     <div class="card__bottom">
-                        <h2>Ecommerce Website With ReactJS</h2>
-                        <p>For this project, I used ReactJS, NodeJS, Sass and HTML to create
-                            an E-commerce website. The features of this website is add to cart
-                            functionality, purchase functionality (PayPal & Credit Card), and page routing functionality. 
+                        <h2>Codeunload WordPress Website</h2>
+                        <p>Codeunload is a website created with WordPress that helps other web developers with problems. 
+                            While creating this website the main goal was to produce high quality content, using SEO to rank 
+                            to the top page of Google when a user searches for specifc keywords around web development, specifically 
+                            to do with networking and web development. Codeunload is still in it's early stages and I am still working on this in my spare time
                         </p>
+                        <div className="card__button">
+                            <a target="_blank" rel="noopener noreferrer" href="https://codeunload.com">
+                                <div className="button">
+                                    View Live
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className="card__container">
