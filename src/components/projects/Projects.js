@@ -8,6 +8,8 @@ import twitterclone from '../../img/twitterclone.png';
 
 
 const Cards = styled.div`
+    margin: auto;
+    max-width: 90%;
     padding: 50px;
     display: flex;
     flex-direction: row;
@@ -20,7 +22,6 @@ const Cards = styled.div`
         background: #fff;
         border-radius: 1px;
         box-shadow: 0 1px 6px rgba(0,0,0, 0.6);
-        cursor: pointer;
         transition: 250ms all;
         &:hover {
             transform: scale(1.01);
@@ -103,7 +104,7 @@ const Projects = () => {
                                     View Code
                                 </div>
                             </a>
-                            <a target="_blank" rel="noopener noreferrer" href="/project-details">
+                            <a target="_blank" rel="noopener noreferrer" href={`/project-details`}>
                                 <div className="button">
                                     View Case Study
                                 </div>
@@ -197,5 +198,4 @@ const Projects = () => {
         </div>
     )
 }
-
 export default Projects

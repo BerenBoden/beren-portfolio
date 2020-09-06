@@ -9,6 +9,8 @@ import twitterclone from '../../img/twitterclone.png';
 import styled from 'styled-components';
 
 const Cards = styled.div`
+    margin: auto;
+    max-width: 90%;
     margin-bottom: 50px;
     padding: 50px;
     display: flex;
@@ -22,7 +24,6 @@ const Cards = styled.div`
         background: #fff;
         border-radius: 1px;
         box-shadow: 0 1px 6px rgba(0,0,0, 0.6);
-        cursor: pointer;
         transition: 250ms all;
         &:hover {
             transform: scale(1.01);

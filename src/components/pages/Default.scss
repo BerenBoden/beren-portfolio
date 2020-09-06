@@ -1,0 +1,40 @@
+.default__body {
+    background-image: url('../../img/banner-bg.png');
+    height: 270px;
+    margin-bottom: 30vh;
+    box-shadow: 1px 2px 3px 1px rgba(0,0,0,0.5);
+    h1 {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        color: #fff;
+        text-decoration: underline;
+        align-items: center;
+        line-height: 300px;
+        font-size: 35px;
+    }
+    a {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        button {
+            border-radius: 5px;
+            font-family: 'Poppins', 'sans-serif';
+            font-weight: 500;
+            background: #2486df;
+            border: none;
+            color: #fff;
+            outline: none;
+            padding: 15px 160px;
+            align-items: center;
+            text-align: center;
+            transition: 0.2s ease-in-out;
+            &:hover{
+                color: #000;
+                cursor: pointer;
+                background-color: rgba(225,225,225,0.9);
+            }
+        }
+    }
+}

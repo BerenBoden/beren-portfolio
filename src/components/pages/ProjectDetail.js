@@ -1,9 +1,15 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 
 function ProjectDetail() {
+    useEffect(() => {
+        //Axios.get(`api/project/projects_by_id?id=${productId}&type=single`)
+        
+
+    }, [])
+
     return (
         <div>
-            <h1>THIS PAGE IS CURRENTLY UNAVALIABLE, PLEASE CHECK BACK SOON</h1>
+            <h1 style={{textAlign: "center"}}>PAGE IS STILL BEING BUILT, PLEASE COME BACK SOON</h1>
         </div>
     )
 }
