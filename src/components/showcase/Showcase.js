@@ -14,9 +14,9 @@ function Showcase() {
                 I'm interested in cyber security as a hobby, but I'm <br />
                 currently working towards a career in web development. <br />
                 </p>
-                <a href={cv} download class="cta">
-                    <span>Download My C.V &nbsp;<i style={{fontWeight: "300"}} class="fa fa-arrow-right"></i></span>
-                    <svg class="svg-btn" width="13px" height="7px" viewBox="0 0 13 7">
+                <a href={cv} download className="cta">
+                    <span>Download My C.V &nbsp;<i style={{fontWeight: "300"}} className="fa fa-arrow-right"></i></span>
+                    <svg className="svg-btn" width="13px" height="7px" viewBox="0 0 13 7">
                     </svg>
                 </a>
             </div>

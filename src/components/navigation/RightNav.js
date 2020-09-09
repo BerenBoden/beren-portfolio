@@ -41,13 +41,13 @@ const RightNav = ({open}) => {
     return (
         <Ul open={open}>
             <li>
-                <a href="/"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+                <a href="/"><i className="fa fa-home" aria-hidden="true"></i> Home</a>
             </li>
             <li>
-                <a href="/projects"><i class="fa fa-folder" aria-hidden="true"></i> Projects</a>
+                <a href="/projects"><i className="fa fa-folder" aria-hidden="true"></i> Projects</a>
             </li>
             <li>
-                <a href="/contact"><i class="fa fa-briefcase" aria-hidden="true"></i> Contact</a>
+                <a href="/contact"><i className="fa fa-briefcase" aria-hidden="true"></i> Contact</a>
             </li>
         </Ul>
     )

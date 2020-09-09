@@ -119,7 +119,7 @@ function ProjectPage() {
                     <div className="card__top">
                         <img src={fbclone} alt="facebook clone with ReactJS" />
                     </div>
-                    <div class="card__bottom">
+                    <div className="card__bottom">
                         <h2>Facebook Clone With ReactJS</h2>
                         <p>For this project, I used ReactJS, Sass, Redux, Material UI and Firebase with Google authentication to create
                             a small Facebook clone. The main feature of this project is to be able to type a message and add an image in the MessageSender component,
@@ -148,7 +148,7 @@ function ProjectPage() {
                     <div className="card__top">
                         <img src={codeunload} alt="codeunload website" />
                     </div>
-                    <div class="card__bottom">
+                    <div className="card__bottom">
                         <h2>Codeunload WordPress Website</h2>
                         <p>Codeunload is a website created with WordPress that helps other web developers with problems. 
                             While creating this website the main goal was to produce high quality content, using SEO to rank 
@@ -173,7 +173,7 @@ function ProjectPage() {
                     <div className="card__top">
                         <img src={twitterclone} alt="Twitter Clone with reactJS" />
                     </div>
-                    <div class="card__bottom">
+                    <div className="card__bottom">
                         <h2>Twitter Clone with reactJS</h2>
                         <p>This Twitter clone was built using React, and the useState and useEffect hooks with the FireStore database. 
                             This app allows you to  
