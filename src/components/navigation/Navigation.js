@@ -2,6 +2,7 @@ import React from 'react';
 import Logo from '../../img/logo.png';
 import styled from 'styled-components';
 import Burger from './Burger';
+import { Link } from 'react-router-dom';
 
 const Nav = styled.nav`
     z-index: 100;
@@ -27,7 +28,9 @@ const Nav = styled.nav`
 function Navigation() {
     return (
         <Nav>
-            <img src={Logo} alt="logo" />
+            <Link to="/">
+                <img src={Logo} alt="logo" />
+            </Link>
             <Burger />
         </Nav>
     )
